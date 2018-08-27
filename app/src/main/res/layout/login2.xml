@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/flow">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOVIENS"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorA"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTERACT WITH YOUR DEMONS"
+        android:layout_gravity="center"
+        android:textColor="@color/colorD"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:hint="Username" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:hint="Password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text= "SIGN IN"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="or"
+        android:textSize="15dp"
+        android:textColor="@color/colorD"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:text="Sign in with FaceBook"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="Don't have an account yet?Sign Up."
+        android:textSize="16dp"
+        android:textColor="@color/colorA"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3949AB</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="colorPri">#3F51B5</color>
+    <color name="colorD">#3949AB</color>
+    <color name="colorA">#00B0FF</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+</resources>
+
+
