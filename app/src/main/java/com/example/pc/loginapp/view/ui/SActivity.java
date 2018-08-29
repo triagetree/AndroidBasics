@@ -34,7 +34,7 @@ public class SActivity extends AppCompatActivity implements NavigationView.OnNav
 
     //SearchView searchView;
     private List<Movie> movieList = new ArrayList<>();
-    private RecyclerView recyclerView;
+   // private RecyclerView recyclerView;
     private RecyclerView mRecyclerView;
     private MyAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
