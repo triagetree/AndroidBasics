@@ -22,15 +22,10 @@ public class From extends AppCompatActivity  {
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
+
+        //save the state of name and age
         savedInstanceState.putString("name", name.getText().toString());
         savedInstanceState.putString("age", age.getText().toString());
     }
-        @Override
-        public void onRestoreInstanceState(Bundle savedInstanceState){
-        super.onRestoreInstanceState(savedInstanceState);
-        String nm=savedInstanceState.getString("name");
-        String ag=savedInstanceState.getString("age");
-        }
-
 
 }
