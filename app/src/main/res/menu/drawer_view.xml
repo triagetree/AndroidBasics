@@ -61,8 +61,13 @@
         <item
             android:id="@+id/retro"
             android:icon="@drawable/baseline_accessible_forward_black_18dp"
-            android:title="Retrofit"
-            />
+            android:title="Retrofit">
+
+        </item>
+        <item
+            android:id="@+id/orient"
+            android:icon="@drawable/baseline_accessible_forward_black_18dp"
+            android:title="Orientation"/>
     </group>
 </menu>
 

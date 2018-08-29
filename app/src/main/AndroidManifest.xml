@@ -54,6 +54,7 @@
         <activity android:name=".view.ui.Seek"></activity>
         <activity android:name=".view.ui.Profil"></activity>
         <activity android:name=".view.ui.RetroResponse"></activity>
+        <activity android:name=".view.ui.From"></activity>
 
         <service
             android:name=".viewmodel.sqlite.MyNewIntentService"
