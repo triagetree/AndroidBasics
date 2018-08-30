@@ -47,79 +47,96 @@ public class SActivity extends AppCompatActivity implements NavigationView.OnNav
         // Handle navigation view item clicks here.
         switch (item.getItemId()) {
 
-            case R.id.nav_camera: {
+            case R.id.nav_camera:
                 Intent intent = new Intent(getApplicationContext(), Camera.class);
                 startActivity(intent);
                 break;
-            }
-            case R.id.nav_gallery: {
-                Intent intent = new Intent(getApplicationContext(), Gallery.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_manage: {
-                Intent intent = new Intent(getApplicationContext(), Tools.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_slideshow: {
-                Intent intent = new Intent(getApplicationContext(), Slideshow.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_days: {
-                Intent intent = new Intent(getApplicationContext(), ActivitySpinner.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_cars: {
-                Intent intent = new Intent(getApplicationContext(), LIstDisplay.class);
-                startActivity(intent);
-                break;
-            }
 
-            case R.id.nav_images: {
-                Intent intent = new Intent(getApplicationContext(), GridDisplay.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_cards: {
-                Intent intent = new Intent(getApplicationContext(), RcHorizontal.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_notes: {
-                Intent intent = new Intent(getApplicationContext(), Note_Activity.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.nav_api: {
-                Intent intent = new Intent(getApplicationContext(), MainApi.class);
-                startActivity(intent);
-                break;
-            }
-            case R.id.fg: {
-                Intent intent = new Intent(getApplicationContext(), FrActivity.class);
-                startActivity(intent);
-                break;
-            }
-
-            case R.id.Google:{
-                Intent intent=new Intent(getApplicationContext(),GActivity.class);
-                startActivity(intent);
+            case R.id.nav_gallery:
+                Intent intent1 = new Intent(getApplicationContext(), Gallery.class);
+                startActivity(intent1);
                 break;
 
-        }
-            case R.id.Kiki:{
-                Intent intent=new Intent(getApplicationContext(),Seek.class);
-                startActivity(intent);
+            case R.id.nav_manage:
+                Intent intent2 = new Intent(getApplicationContext(), Tools.class);
+                startActivity(intent2);
                 break;
-            }
-            case R.id.retro:{
-                Intent intent=new Intent(getApplicationContext(),RetroResponse.class);
-                startActivity(intent);
+
+            case R.id.nav_slideshow:
+                Intent intent3 = new Intent(getApplicationContext(), Slideshow.class);
+                startActivity(intent3);
                 break;
-            }
+
+            case R.id.nav_days:
+                Intent intent4 = new Intent(getApplicationContext(), ActivitySpinner.class);
+                startActivity(intent4);
+                break;
+
+            case R.id.nav_cars:
+                Intent intent5 = new Intent(getApplicationContext(), LIstDisplay.class);
+                startActivity(intent5);
+                break;
+
+
+            case R.id.nav_images:
+                Intent intent6 = new Intent(getApplicationContext(), GridDisplay.class);
+                startActivity(intent6);
+                break;
+
+            case R.id.nav_cards:
+                Intent intent7 = new Intent(getApplicationContext(), RcHorizontal.class);
+                startActivity(intent7);
+                break;
+
+            case R.id.nav_notes:
+                Intent intent8 = new Intent(getApplicationContext(), Note_Activity.class);
+                startActivity(intent8);
+                break;
+
+            case R.id.nav_api:
+                Intent intent9 = new Intent(getApplicationContext(), MainApi.class);
+                startActivity(intent9);
+                break;
+
+            case R.id.fg:
+                Intent intent10 = new Intent(getApplicationContext(), FrActivity.class);
+                startActivity(intent10);
+                break;
+
+
+            case R.id.Google:
+                Intent intent11=new Intent(getApplicationContext(),GActivity.class);
+                startActivity(intent11);
+                break;
+
+
+            case R.id.Kiki:
+                Intent intent12=new Intent(getApplicationContext(),Seek.class);
+                startActivity(intent12);
+                break;
+
+            case R.id.retro:
+                Intent intent13=new Intent(getApplicationContext(),RetroResponse.class);
+                startActivity(intent13);
+                break;
+
+            case R.id.orient:
+                Intent intent14=new Intent(getApplicationContext(),From.class);
+                startActivity(intent14);
+                break;
+
+
+            case R.id.pokemon:
+                Intent intent15=new Intent(getApplicationContext(),PkmnActivity.class);
+                startActivity(intent15);
+                break;
+
+
+            case R.id.spinn:
+                Intent intent16=new Intent(getApplicationContext(),SpinnerEx4Activity.class);
+                startActivity(intent16);
+                break;
+
         }
 
 

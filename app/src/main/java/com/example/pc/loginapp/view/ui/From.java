@@ -21,7 +21,6 @@ public class From extends AppCompatActivity  {
         age=(EditText) findViewById(R.id.age);
 
 
-
         if(savedInstanceState!=null){
             String savedText=savedInstanceState.getString(SAVED_TEXT_KEY);
             name.setText(savedText);
@@ -29,7 +28,9 @@ public class From extends AppCompatActivity  {
         }
         }
 
-    @Override
+
+
+        @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
 
@@ -37,5 +38,4 @@ public class From extends AppCompatActivity  {
         savedInstanceState.putString(SAVED_TEXT_KEY, name.getText().toString());
         savedInstanceState.putString(SAVED_TEXT_KEY, age.getText().toString());
     }
-
 }
