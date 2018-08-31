@@ -57,6 +57,8 @@
         <activity android:name=".view.ui.From"></activity>
         <activity android:name=".view.ui.PkmnActivity"></activity>
         <activity android:name=".view.ui.SpinnerEx4Activity"></activity>
+        <activity android:name=".view.ui.BottomNavigation"></activity>
+        <activity android:name=".view.ui.BnAct"></activity>
 
         <service
             android:name=".viewmodel.sqlite.MyNewIntentService"

@@ -137,6 +137,11 @@ public class SActivity extends AppCompatActivity implements NavigationView.OnNav
                 startActivity(intent16);
                 break;
 
+            case R.id.Bn:
+                Intent intent17=new Intent(getApplicationContext(),BottomNavigation.class);
+                startActivity(intent17);
+                break;
+
         }
 
 

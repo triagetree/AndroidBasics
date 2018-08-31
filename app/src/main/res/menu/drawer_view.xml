@@ -73,6 +73,10 @@
             android:id="@+id/spinn"
             android:icon="@drawable/fire"
             android:title="Spinner"/>
+        <item
+            android:id="@+id/Bn"
+              android:icon="@drawable/outline_pets_black_18dp"
+            android:title="BN"/>
     </group>
     <item
         android:id="@+id/pokemon"

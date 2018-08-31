@@ -9,8 +9,7 @@
     <string name="hint_enter_note">Enter your note!</string>
 
 
-
-     <string name="lblAcc">Select Account Type</string>
+    <string name="lblAcc">Select Account Type</string>
     <string name="lblSubAcc">Select Account Head</string>
 
     <string-array name="acc_type">
@@ -85,6 +84,13 @@
     <string name="btn_logout_from_google">Logout from Google</string>
     <string name="btn_revoke_access">Revoke Access</string>
     <string name="loading" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="collapsing_toolbar">Collapse</string>
+
+
+
 </resources>
 
 

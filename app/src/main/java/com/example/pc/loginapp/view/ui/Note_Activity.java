@@ -73,7 +73,7 @@ public class Note_Activity extends AppCompatActivity {
         recyclerView.addItemDecoration(new MyDividerItemDecoration(this, LinearLayoutManager.VERTICAL, 16));
         recyclerView.setAdapter(mAdapter);
 
-        toggleEmptyNotes();
+        //toggleEmptyNotes();
 
         /**
          * On long press on RecyclerView item, open alert dialog
@@ -112,7 +112,7 @@ public class Note_Activity extends AppCompatActivity {
             // refreshing the list
             mAdapter.notifyDataSetChanged();
 
-            toggleEmptyNotes();
+            //toggleEmptyNotes();
         }
     }
 
@@ -132,7 +132,7 @@ public class Note_Activity extends AppCompatActivity {
         notesList.set(position, n);
         mAdapter.notifyItemChanged(position);
 
-        toggleEmptyNotes();
+        //toggleEmptyNotes();
     }
 
     /**
@@ -147,7 +147,7 @@ public class Note_Activity extends AppCompatActivity {
         notesList.remove(position);
         mAdapter.notifyItemRemoved(position);
 
-        toggleEmptyNotes();
+        //toggleEmptyNotes();
     }
 
     /**
@@ -240,7 +240,7 @@ public class Note_Activity extends AppCompatActivity {
         // you can check notesList.size() > 0
 
         if (db.getNotesCount() > 0) {
-            noNotesView.setVisibility(View.GONE);
+            noNotesView.setVisibility(View.VISIBLE);
         } else {
             noNotesView.setVisibility(View.VISIBLE);
         }

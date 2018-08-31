@@ -21,19 +21,16 @@ public class Camera extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragments_camera);
+        setContentView(R.layout.collapselayout);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
+        getSupportActionBar().hide();
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                break;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-}
+
+

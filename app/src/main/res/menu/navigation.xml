@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/baseline_face_black_18dp"
+        android:enabled="true"
+        android:title="Profile"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navigation_gifts"
+        android:icon="@drawable/baseline_accessible_forward_black_18dp"
+        android:enabled="true"
+        android:title="Music"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/outline_pets_black_18dp"
+        android:enabled="true"
+        android:title="No"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_account_circle_black_18dp"
+        android:enabled="true"
+        android:title="Notes"
+        app:showAsAction="always"/>
+
+</menu>
